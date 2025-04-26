@@ -3,18 +3,22 @@ date = '2025-04-25T22:35:41-04:00'
 title = 'Group'
 +++
 
-A **group** is a set \(G\) together with a [binary
-operation](/definitions/algebra/group_theory/binary_operation)
-\(\ast: G \times G \rightarrow G\) such that the following properties
-are satisfied:
+A _group_ is a non-empty [set]() \(G\) together with a [binary
+operation](/zettelkasten/definitions/algebra/binary_operation) \(\ast: G \times G
+\rightarrow G\) such that the following hold:
 
-(Closure). For every \(a, b \in  G\), we have \( a \ast b \in G\)
+(Closure) For every \(a,b \in G\), the product \(a \ast b \in G\).
 
-(Associativity). The operation \(\ast: G \times G \rightarrow G\) is
-[associative](/definitions/algebra/group_theory/associative)
+(Associativity) The binary operation \(\ast: G \times G \rightarrow G\) is
+[associative](/zettelkasten/definitions/algebra/associative).
 
-(Identity). \(G\) has an [identity element](/definitions/algebra/group_theory/identity_element).
+(Identity) \(G\) has an [identity
+element](/zettelkasten/definitions/algebra/identity_element).
 
-(Inverse). Every element \(a \in G\) has an [inverse
-element](/definitions/algebra/group_theory/inverse_element).
+(Inverse) There exists an [inverse
+element](/zettelkasten/definitions/algebra/inverse_element).
 
+We remark that the axiom of closure in this definition is redundant
+by the definition of a [binary
+operation](/zettelkasten/definitions/algebra/binary_operation), which
+guarantees that \(\ast(G) \subseteq G\).

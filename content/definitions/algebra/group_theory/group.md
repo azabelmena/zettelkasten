@@ -15,3 +15,4 @@ A **group** is a set \(G\) together with a binary operation \(\ast: G
 
 (Inverse). Every element \(a \in G\) has an [inverse
 element](algebra/group_theory/inverse_element).
+

@@ -1,0 +1,38 @@
+baseURL = 'https://azabelmena.github.io/zettelkasten'
+languageCode = 'en-us'
+title = "Mathematik Zettelkasten"
+copyright = 'Alec S. Zabel-Mena'
+enableRobotsTXT = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/michenriksen/hugo-theme-til"
+
+[outputs]
+  home = ['html']
+  section = ['html', 'rss', 'json']
+  page = ['html']
+
+[menus]
+  [[menus.main]]
+    name = 'Notes'
+    pageRef = '/notes'
+    weight = 20
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 30
+  [[menus.main]]
+    name = 'Graph'
+    pageRef = '/graph'
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = 'tokyonight-night'
+
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true

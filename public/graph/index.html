@@ -30,6 +30,35 @@
       <script src="/zettelkasten/js/main.js" defer></script>
   
 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+  integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg="
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+  integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  integrity="sha256-e1fUJ6xicGd9r42DgN7SzHMzb5FJoWe44f4NbvZmBK4="
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '\\[', right: '\\]', display: true }, 
+        { left: '$$', right: '$$', display: true }, 
+        { left: '\\(', right: '\\)', display: false } 
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,15 +82,11 @@
   <nav>
     <ul class="flex flex-row items-center justify-end space-x-4">
     <li>
-      <a>Notes</a
+      <a href="/zettelkasten/definitions/">Definitions</a
       >
     </li>
     <li>
-      <a>Posts</a
-      >
-    </li>
-    <li>
-      <a aria-current="page" class="active" href="/zettelkasten/graph/">Graph</a
+      <a href="/zettelkasten/graph/">Graph</a
       >
     </li>
     </ul>

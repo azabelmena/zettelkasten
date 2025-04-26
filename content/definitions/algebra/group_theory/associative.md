@@ -1,0 +1,10 @@
++++
+date = '2025-04-25T23:30:41-04:00'
+title = 'Associative'
++++
+
+Let \(A\) be a set. We call a binary operation \(\ast: A \times A
+\rightarrow A\) **associative** if for every \(a,b,c \in A\):
+\[
+    (a \ast b) \ast c = a \ast (b \ast c)
+\]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Definitions on Mathematik Zettelkasten</title>
+    <link>http://localhost:1313/zettelkasten/definitions/</link>
+    <description>Recent content in Definitions on Mathematik Zettelkasten</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Alec S. Zabel-Mena</copyright>
+    <lastBuildDate>Fri, 25 Apr 2025 23:30:41 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/zettelkasten/definitions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Associative</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/associative/</link>
+      <pubDate>Fri, 25 Apr 2025 23:30:41 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/associative/</guid>
+      <description>&lt;p&gt;Let \(A\) be a set. We call a binary operation \(\ast: A \times A&#xA;\rightarrow A\) &lt;strong&gt;associative&lt;/strong&gt; if for every \(a,b,c \in A\):&#xA;&lt;/p&gt;&#xA;\[&#xA;    (a \ast b) \ast c = a \ast (b \ast c)&#xA;\]</description>
+    </item>
+    <item>
+      <title>Inverse Element</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/inverse_element/</link>
+      <pubDate>Fri, 25 Apr 2025 23:04:29 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/inverse_element/</guid>
+      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). For any element \(a\) in \(A\), we define an&#xA;&lt;strong&gt;inverse&lt;/strong&gt; element of \(a\) to be an element \(b \in A\) such that:&#xA;&lt;/p&gt;&#xA;\[&#xA;a \ast b=b \ast a=e&#xA;\]&lt;p&gt;&#xA;where \(e\) is defined to be an identity element of \(A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a group, then the inverse element is&#xA;unique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identity Element</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/identity_element/</link>
+      <pubDate>Fri, 25 Apr 2025 22:59:05 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/identity_element/</guid>
+      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). We define an &lt;strong&gt;identity&lt;/strong&gt; element of \(A\) to be&#xA;an element \(e \in A\) such that&#xA;&lt;/p&gt;&#xA;\[&#xA;e \ast a=a \ast e=a&#xA;\]&lt;p&gt;&#xA;for every \(a \in A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a group, then the identity element is&#xA;unique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Binary Operation</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/binary_operation/</link>
+      <pubDate>Fri, 25 Apr 2025 22:58:56 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/binary_operation/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;binary operation&lt;/strong&gt; on a set \(A\) is just a function \(\ast: A&#xA;\times A \rightarrow A\). For any \(a,b \in A\), we write&#xA;\(\ast(a,b)=a \ast b\). We also write \(\ast: (a,b) \rightarrow a \ast&#xA;b\). When context is clear, we may abbreviate \(a \ast b\) as \(ab\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Group</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/group/</link>
+      <pubDate>Fri, 25 Apr 2025 22:35:41 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/group/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;group&lt;/strong&gt; is a set \(G\) together with a binary operation \(\ast: G&#xA;\times G \rightarrow G\) such that the following properties are satisfied:&lt;/p&gt;&#xA;&lt;p&gt;(Closure). For every \(a, b \in  G\), we have \( a \ast b \in G\)&lt;/p&gt;&#xA;&lt;p&gt;(Associativity). The operation \(\ast: G \times G \rightarrow G\) is&#xA;&lt;a href=&#34;algebra/group_theory/associative&#34;&gt;associative&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Identity). \(G\) has an &lt;a href=&#34;algebra/group_theory/identity_element&#34;&gt;identity element&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;(Inverse). Every element \(a \in G\) has an &lt;a href=&#34;algebra/group_theory/inverse_element&#34;&gt;inverse&#xA;element&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,175 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+>
+  <head><script src="/zettelkasten/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=zettelkasten/livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    Definitions | Mathematik Zettelkasten
+</title>
+<meta property="og:url" content="http://localhost:1313/zettelkasten/definitions/">
+  <meta property="og:site_name" content="Mathematik Zettelkasten">
+  <meta property="og:title" content="Definitions">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+  <meta itemprop="name" content="Definitions">
+  <meta itemprop="datePublished" content="2025-04-25T23:30:41-04:00">
+  <meta itemprop="dateModified" content="2025-04-25T23:30:41-04:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Definitions">
+
+<link rel="canonical" href="http://localhost:1313/zettelkasten/definitions/" /><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/zettelkasten/definitions/index.xml" /><link rel="alternate" type="application/json" href="http://localhost:1313/zettelkasten/definitions/index.json" />
+
+    <link rel="stylesheet" href="/zettelkasten/css/index.css" />
+
+
+      <script src="/zettelkasten/js/main.js" defer></script>
+  
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+  integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg="
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+  integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  integrity="sha256-e1fUJ6xicGd9r42DgN7SzHMzb5FJoWe44f4NbvZmBK4="
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '\\[', right: '\\]', display: true }, 
+        { left: '$$', right: '$$', display: true }, 
+        { left: '\\(', right: '\\)', display: false } 
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "copyrightNotice": "Alec S. Zabel-Mena",
+  "description": "",
+  "headline": "Definitions"
+}
+</script>
+
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/zettelkasten/">Mathematik Zettelkasten</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a aria-current="page" class="active" href="/zettelkasten/definitions/">Definitions</a
+      >
+    </li>
+    <li>
+      <a href="/zettelkasten/graph/">Graph</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        
+  <h1>Definitions</h1>
+
+  
+  
+    <h2><a href="/zettelkasten/definitions/algebra/group_theory/associative/">Associative</a></h2>
+    <p>Let \(A\) be a set. We call a binary operation \(\ast: A \times A
+\rightarrow A\) <strong>associative</strong> if for every \(a,b,c \in A\):
+</p>
+\[
+    (a \ast b) \ast c = a \ast (b \ast c)
+\]
+  
+    <h2><a href="/zettelkasten/definitions/algebra/group_theory/inverse_element/">Inverse Element</a></h2>
+    <p>Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary
+operation on \(A\). For any element \(a\) in \(A\), we define an
+<strong>inverse</strong> element of \(a\) to be an element \(b \in A\) such that:
+</p>
+\[
+a \ast b=b \ast a=e
+\]<p>
+where \(e\) is defined to be an identity element of \(A\).</p>
+<p>We remark that when \(A\) is a group, then the inverse element is
+unique.</p>
+  
+    <h2><a href="/zettelkasten/definitions/algebra/group_theory/identity_element/">Identity Element</a></h2>
+    <p>Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary
+operation on \(A\). We define an <strong>identity</strong> element of \(A\) to be
+an element \(e \in A\) such that
+</p>
+\[
+e \ast a=a \ast e=a
+\]<p>
+for every \(a \in A\).</p>
+<p>We remark that when \(A\) is a group, then the identity element is
+unique.</p>
+  
+    <h2><a href="/zettelkasten/definitions/algebra/group_theory/binary_operation/">Binary Operation</a></h2>
+    <p>A <strong>binary operation</strong> on a set \(A\) is just a function \(\ast: A
+\times A \rightarrow A\). For any \(a,b \in A\), we write
+\(\ast(a,b)=a \ast b\). We also write \(\ast: (a,b) \rightarrow a \ast
+b\). When context is clear, we may abbreviate \(a \ast b\) as \(ab\).</p>
+  
+    <h2><a href="/zettelkasten/definitions/algebra/group_theory/group/">Group</a></h2>
+    <p>A <strong>group</strong> is a set \(G\) together with a binary operation \(\ast: G
+\times G \rightarrow G\) such that the following properties are satisfied:</p>
+<p>(Closure). For every \(a, b \in  G\), we have \( a \ast b \in G\)</p>
+<p>(Associativity). The operation \(\ast: G \times G \rightarrow G\) is
+<a href="algebra/group_theory/associative">associative</a></p>
+<p>(Identity). \(G\) has an <a href="algebra/group_theory/identity_element">identity element</a>.</p>
+<p>(Inverse). Every element \(a \in G\) has an <a href="algebra/group_theory/inverse_element">inverse
+element</a>.</p>
+  
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2025, Alec S. Zabel-Mena.</p>
+
+  </div>
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.6.0"
+        >theme: til</a
+      >
+    </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>

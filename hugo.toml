@@ -15,13 +15,9 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
-    weight = 20
-  [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 30
+    name = 'Definitions'
+    pageRef = '/definitions'
+    weight = 40
   [[menus.main]]
     name = 'Graph'
     pageRef = '/graph'
@@ -32,7 +28,12 @@ enableRobotsTXT = true
     noClasses = false
     style = 'tokyonight-night'
 
-  [markup.goldmark]
-    [markup.goldmark.parser]
-      [markup.goldmark.parser.attribute]
-        block = true
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                enable = true
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    block = [['\[', '\]']]
+                    inline = [['\(', '\)']]
+[params]
+  math = true

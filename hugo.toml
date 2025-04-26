@@ -4,6 +4,12 @@ title = "Mathematik Zettelkasten"
 copyright = 'Alec S. Zabel-Mena'
 enableRobotsTXT = true
 
+archetypeDir = "archetypes"
+contentDir   = "definitions"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
 [module]
   [[module.imports]]
     path = "github.com/michenriksen/hugo-theme-til"
@@ -15,13 +21,9 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
+    name = 'Definitions'
+    pageRef = '/definitions'
     weight = 20
-  [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 30
   [[menus.main]]
     name = 'Graph'
     pageRef = '/graph'

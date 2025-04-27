@@ -17,11 +17,32 @@
       <description>&lt;p&gt;Let \(A\) be a set. We call a binary operation \(\ast: A \times A&#xA;\rightarrow A\) &lt;strong&gt;associative&lt;/strong&gt; if for every \(a,b,c \in A\):&#xA;&lt;/p&gt;&#xA;\[&#xA;    (a \ast b) \ast c = a \ast (b \ast c)&#xA;\]</description>
     </item>
     <item>
+      <title>Inverse Element</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/inverse_element/</link>
+      <pubDate>Fri, 25 Apr 2025 23:04:29 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/inverse_element/</guid>
+      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). For any element \(a\) in \(A\), we define an&#xA;&lt;strong&gt;inverse&lt;/strong&gt; element of \(a\) to be an element \(b \in A\) such that:&#xA;&lt;/p&gt;&#xA;\[&#xA;a \ast b=b \ast a=e&#xA;\]&lt;p&gt;&#xA;where \(e\) is defined to be an identity element of \(A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a group, then the inverse element is&#xA;unique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identity Element</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/identity_element/</link>
+      <pubDate>Fri, 25 Apr 2025 22:59:05 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/identity_element/</guid>
+      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). We define an &lt;strong&gt;identity&lt;/strong&gt; element of \(A\) to be&#xA;an element \(e \in A\) such that&#xA;&lt;/p&gt;&#xA;\[&#xA;e \ast a=a \ast e=a&#xA;\]&lt;p&gt;&#xA;for every \(a \in A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a group, then the identity element is&#xA;unique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Binary Operation</title>
+      <link>http://localhost:1313/zettelkasten/definitions/algebra/binary_operation/</link>
+      <pubDate>Fri, 25 Apr 2025 22:58:56 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/algebra/binary_operation/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;binary operation&lt;/strong&gt; on a set \(A\) is just a function \(\ast: A&#xA;\times A \rightarrow A\). For any \(a,b \in A\), we write&#xA;\(\ast(a,b)=a \ast b\). We also write \(\ast: (a,b) \rightarrow a \ast&#xA;b\). When context is clear, we may abbreviate \(a \ast b\) as \(ab\).&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Group</title>
       <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/group/</link>
       <pubDate>Fri, 25 Apr 2025 22:35:41 -0400</pubDate>
       <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/group/</guid>
-      <description>&lt;p&gt;A &lt;em&gt;group&lt;/em&gt; is a non-empty &lt;a href=&#34;&#34;&gt;set&lt;/a&gt; \(G\) together with a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/binary_operation&#34;&gt;binary&#xA;operation&lt;/a&gt; \(\ast: G \times G&#xA;\rightarrow G\) such that the following hold:&lt;/p&gt;&#xA;&lt;p&gt;(Closure) For every \(a,b \in G\), the product \(a \ast b \in G\).&lt;/p&gt;&#xA;&lt;p&gt;(Associativity) The binary operation \(\ast: G \times G \rightarrow G\) is&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/associative&#34;&gt;associative&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;(Identity) \(G\) has an &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/identity_element&#34;&gt;identity&#xA;element&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;(Inverse) There exists an &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/inverse_element&#34;&gt;inverse&#xA;element&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We remark that the axiom of closure in this definition is redundant&#xA;by the definition of a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/binary_operation&#34;&gt;binary&#xA;operation&lt;/a&gt;, which&#xA;guarantees that \(\ast(G) \subseteq G\).&lt;/p&gt;</description>
+      <description>&lt;p&gt;A &lt;em&gt;group&lt;/em&gt; is a non-empty &lt;a href=&#34;&#34;&gt;set&lt;/a&gt; \(G\) together with a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/binary_operation&#34;&gt;binary&#xA;operation&lt;/a&gt; \(\ast: G \times G&#xA;\rightarrow G\) such that the following hold:&lt;/p&gt;&#xA;&lt;p&gt;(Closure) For every \(a,b \in G\), the product \(a \ast b \in G\).&lt;/p&gt;&#xA;&lt;p&gt;(Associativity) The binary operation \(\ast: G \times G \rightarrow G\) is&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/associative&#34;&gt;associative&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;(Identity) \(G\) has an &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/identity_element&#34;&gt;identity&#xA;element&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;(Inverse) There exists an &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/inverse_element&#34;&gt;inverse&#xA;element&lt;/a&gt; for every&#xA;element \(a \in G\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that the axiom of closure in this definition is redundant&#xA;by the definition of a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/binary_operation&#34;&gt;binary&#xA;operation&lt;/a&gt;, which&#xA;guarantees that &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

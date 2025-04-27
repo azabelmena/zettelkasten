@@ -16,9 +16,10 @@ operation](/zettelkasten/definitions/algebra/binary_operation) \(\ast: G \times 
 element](/zettelkasten/definitions/algebra/identity_element).
 
 (Inverse) There exists an [inverse
-element](/zettelkasten/definitions/algebra/inverse_element).
+element](/zettelkasten/definitions/algebra/inverse_element) for every
+element \(a \in G\).
 
 We remark that the axiom of closure in this definition is redundant
 by the definition of a [binary
 operation](/zettelkasten/definitions/algebra/binary_operation), which
-guarantees that \(\ast(G) \subseteq G\).
+guarantees that \[\ast(G \times G) \subseteq G\].

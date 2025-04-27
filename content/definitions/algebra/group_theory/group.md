@@ -22,4 +22,4 @@ element \(a \in G\).
 We remark that the axiom of closure in this definition is redundant
 by the definition of a [binary
 operation](/zettelkasten/definitions/algebra/binary_operation), which
-guarantees that \[\ast(G \times G) \subseteq G\].
+guarantees that: \[\ast(G \times G) \subseteq G\].

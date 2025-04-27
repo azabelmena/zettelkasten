@@ -7,14 +7,77 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Alec S. Zabel-Mena</copyright>
-    <lastBuildDate>Sat, 26 Apr 2025 21:14:37 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 22:56:11 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/zettelkasten/definitions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/preimage/</link>
+      <pubDate>Sat, 26 Apr 2025 22:56:11 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/preimage/</guid>
+      <description>&lt;p&gt;The &lt;em&gt;preimage&lt;/em&gt; of a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/function&#34;&gt;function&lt;/a&gt;&#xA;\(f:X \rightarrow Y\) is defined to be the&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/set&#34;&gt;set&lt;/a&gt; \(f^{-1}(Y)\) of all&#xA;\(x \in X\) such that \(f(x) \in Y\). That is:&#xA;&lt;/p&gt;&#xA;\[&#xA;    f^{-1}(Y)=\{ x \in X : f(x) \in Y \}&#xA;\]&lt;p&gt;We remark that the preimage of a function is always a&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettlekasten/definitions/set_theory/subset&#34;&gt;subset&lt;/a&gt; of the&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/domain&#34;&gt;domain&lt;/a&gt; of \(f\). That&#xA;is: \(f^{-1}(Y) \subseteq X\)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/image/</link>
+      <pubDate>Sat, 26 Apr 2025 22:34:37 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/image/</guid>
+      <description>&lt;p&gt;The &lt;em&gt;image&lt;/em&gt; of a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/function&#34;&gt;function&lt;/a&gt;&#xA;\(f:X \rightarrow Y\) is defined to be the&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/set&#34;&gt;set&lt;/a&gt; \(f(X)\) of all \(f(x)&#xA;\in Y\), given \(x \in X\). That is:&#xA;&lt;/p&gt;&#xA;\[&#xA;    f(X)=\{ f(x) : x \in X \}&#xA;\]&lt;p&gt;We remark that the image of a function is always a&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettlekasten/definitions/set_theory/subset&#34;&gt;subset&lt;/a&gt; of the&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/codomain&#34;&gt;codomain&lt;/a&gt; of \(f\). That&#xA;is: \(f(X) \subseteq Y\)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ordered Pair</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/ordered_pair/</link>
+      <pubDate>Sat, 26 Apr 2025 22:21:07 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/ordered_pair/</guid>
+      <description>&lt;p&gt;Let \(a\) and \(b\) be arbitrary objects. We define the &lt;em&gt;ordered pair&lt;/em&gt;&#xA;\((a,b)\) of \(a\) and \(b\) to be the&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/set&#34;&gt;set&lt;/a&gt; defined by:&#xA;&lt;/p&gt;&#xA;\[&#xA;    (a,b)=\{\{a\}, \{a,b\}\}&#xA;\]&lt;p&gt;We remark that the term &lt;em&gt;object&lt;/em&gt; is taken to be undefined.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cartesian Product</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/cartesian_product/</link>
+      <pubDate>Sat, 26 Apr 2025 22:16:39 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/cartesian_product/</guid>
+      <description>&lt;p&gt;Let \(A\) and \(B\) be &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/set&#34;&gt;sets&lt;/a&gt;. We define the&#xA;&lt;em&gt;cartesian product&lt;/em&gt; of \(A\) and \(B\) to be the set \(A \times B\) of all&#xA;&lt;a href=&#34;&#34;&gt;ordered pairs&lt;/a&gt; of elements from \(A\) and elements of \(B\). That&#xA;is:&#xA;&lt;/p&gt;&#xA;\[&#xA;    A \times B = \{(a,b) : a \in A \text{ and } b \in B\}&#xA;\]</description>
+    </item>
+    <item>
+      <title>Subset</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/subset/</link>
+      <pubDate>Sat, 26 Apr 2025 22:07:45 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/subset/</guid>
+      <description>&lt;p&gt;Let \(A\) and \(B\) be &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/set_theory/set&#34;&gt;sets&lt;/a&gt;. We say that&#xA;\(A\) is a &lt;em&gt;subset&lt;/em&gt; of \(B\) provided every element of \(A\) is also a&#xA;element of \(A\): that is \(A\) is a subset of \(B\) if, and only if&#xA;for every \(a \in A\), we also have \(a \in B\). We write \(A \subseteq B\) to&#xA;denote that \(A\) is a subset of \(B\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Codomain</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/codomain/</link>
+      <pubDate>Sat, 26 Apr 2025 22:00:40 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/codomain/</guid>
+      <description>&lt;p&gt;See &lt;a href=&#34;content/definitions/set_theory/function&#34;&gt;function&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domain</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/domain/</link>
+      <pubDate>Sat, 26 Apr 2025 22:00:40 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/domain/</guid>
+      <description>&lt;p&gt;See &lt;a href=&#34;content/definitions/set_theory/function&#34;&gt;function&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Function</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/function/</link>
+      <pubDate>Sat, 26 Apr 2025 22:00:40 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/function/</guid>
+      <description>&lt;p&gt;A &lt;em&gt;function&lt;/em&gt; is a &lt;a href=&#34;&#34;&gt;triple&lt;/a&gt; \((X,Y,f)\) such that \(f&#xA;\subseteq X \times Y\) and whenever \((x,y) \in f\) and \((x,y&#39;) \in f\),&#xA;then we have \(y=y&#39;\). We denote the triple \((X,Y,f)\) simply by \(f\),&#xA;or by the notation: \(f:X \rightarrow Y\). We call \(X\) the &lt;em&gt;domain&lt;/em&gt; of \(f\)&#xA;and we call \(Y\) the &lt;em&gt;codomain&lt;/em&gt; of \(f\). Given \((c,d) \in f\) we,&#xA;write f(c)=d&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Set</title>
+      <link>http://localhost:1313/zettelkasten/definitions/set_theory/set/</link>
+      <pubDate>Sat, 26 Apr 2025 22:00:33 -0400</pubDate>
+      <guid>http://localhost:1313/zettelkasten/definitions/set_theory/set/</guid>
+      <description>&lt;p&gt;A &lt;em&gt;set&lt;/em&gt; is a an arbitrary collection of objects. We call the objects&#xA;of a set &lt;em&gt;elements&lt;/em&gt;. If \(A\) is a set, and \(a\) is a element of \(A\),&#xA;then we write \(a \in A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that that the terms &lt;em&gt;object&lt;/em&gt; and &lt;em&gt;collection&lt;/em&gt; are to be&#xA;taken without definition.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Abelian Group</title>
       <link>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/abelian_group/</link>
       <pubDate>Sat, 26 Apr 2025 21:14:37 -0400</pubDate>
       <guid>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/abelian_group/</guid>
-      <description>&lt;p&gt;An &lt;em&gt;abelian group&lt;/em&gt; is a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/group_theory/group&#34;&gt;group&lt;/a&gt;&#xA;\(G\) whose &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/binary_operation&#34;&gt;binary operation&lt;/a&gt; is&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/commutative&#34;&gt;commutative&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;An &lt;em&gt;Abelian group&lt;/em&gt; is a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/group_theory/group&#34;&gt;group&lt;/a&gt;&#xA;\(G\) whose &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/binary_operation&#34;&gt;binary operation&lt;/a&gt; is&#xA;&lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/commutative&#34;&gt;commutative&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We remark that Abelian groups are also sometimes called &lt;em&gt;commutative&#xA;groups&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Commutative</title>

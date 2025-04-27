@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zettelkasten/definitions/algebra/associative/</loc>
-    <lastmod>2025-04-25T23:30:41-04:00</lastmod>
+    <loc>http://localhost:1313/zettelkasten/definitions/algebra/group_theory/abelian_group/</loc>
+    <lastmod>2025-04-26T21:14:37-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/zettelkasten/definitions/</loc>
+    <lastmod>2025-04-26T21:14:37-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zettelkasten/definitions/algebra/commutative/</loc>
+    <lastmod>2025-04-26T21:14:17-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zettelkasten/definitions/algebra/associative/</loc>
     <lastmod>2025-04-25T23:30:41-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/zettelkasten/definitions/algebra/inverse_element/</loc>

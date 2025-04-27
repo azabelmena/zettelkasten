@@ -3,9 +3,9 @@ date = '2025-04-25T22:35:41-04:00'
 title = 'Group'
 +++
 
-A _group_ is a non-empty [set]() \(G\) together with a [binary
-operation](/zettelkasten/definitions/algebra/binary_operation) \(\ast: G \times G
-\rightarrow G\) such that the following hold:
+A _group_ is a non-empty [set](/zettelkasten/definitions/set_theory/set)
+\(G\) together with a [binary operation](/zettelkasten/definitions/algebra/binary_operation)
+\(\ast: G \times G \rightarrow G\) such that the following hold:
 
 (Closure) For every \(a,b \in G\), the product \(a \ast b \in G\).
 

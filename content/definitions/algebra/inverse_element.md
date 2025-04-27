@@ -12,5 +12,5 @@ a \ast b=b \ast a=e
 \]
 where \(e\) is defined to be an identity element of \(A\).
 
-We remark that when \(A\) is a group, then the inverse element is
-unique.
+We remark that when \(A\) is a [group](/zettelkasten/definitions/algebra/group_theory/group),
+then the inverse elements are unique.

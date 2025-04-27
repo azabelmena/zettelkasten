@@ -21,14 +21,14 @@
       <link>http://localhost:1313/zettelkasten/definitions/algebra/inverse_element/</link>
       <pubDate>Fri, 25 Apr 2025 23:04:29 -0400</pubDate>
       <guid>http://localhost:1313/zettelkasten/definitions/algebra/inverse_element/</guid>
-      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). For any element \(a\) in \(A\), we define an&#xA;&lt;strong&gt;inverse&lt;/strong&gt; element of \(a\) to be an element \(b \in A\) such that:&#xA;&lt;/p&gt;&#xA;\[&#xA;a \ast b=b \ast a=e&#xA;\]&lt;p&gt;&#xA;where \(e\) is defined to be an identity element of \(A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a group, then the inverse element is&#xA;unique.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). For any element \(a\) in \(A\), we define an&#xA;&lt;strong&gt;inverse&lt;/strong&gt; element of \(a\) to be an element \(b \in A\) such that:&#xA;&lt;/p&gt;&#xA;\[&#xA;a \ast b=b \ast a=e&#xA;\]&lt;p&gt;&#xA;where \(e\) is defined to be an identity element of \(A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/group_theory/group&#34;&gt;group&lt;/a&gt;,&#xA;then the inverse elements are unique.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Identity Element</title>
       <link>http://localhost:1313/zettelkasten/definitions/algebra/identity_element/</link>
       <pubDate>Fri, 25 Apr 2025 22:59:05 -0400</pubDate>
       <guid>http://localhost:1313/zettelkasten/definitions/algebra/identity_element/</guid>
-      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). We define an &lt;strong&gt;identity&lt;/strong&gt; element of \(A\) to be&#xA;an element \(e \in A\) such that&#xA;&lt;/p&gt;&#xA;\[&#xA;e \ast a=a \ast e=a&#xA;\]&lt;p&gt;&#xA;for every \(a \in A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a group, then the identity element is&#xA;unique.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let \(A\) be a set, and \(\ast:A \times A \rightarrow A\) a binary&#xA;operation on \(A\). We define an &lt;strong&gt;identity&lt;/strong&gt; element of \(A\) to be&#xA;an element \(e \in A\) such that&#xA;&lt;/p&gt;&#xA;\[&#xA;e \ast a=a \ast e=a&#xA;\]&lt;p&gt;&#xA;for every \(a \in A\).&lt;/p&gt;&#xA;&lt;p&gt;We remark that when \(A\) is a &lt;a href=&#34;http://localhost:1313/zettelkasten/zettelkasten/definitions/algebra/group_theory/group&#34;&gt;group&lt;/a&gt;,&#xA;then the identity element is unique.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Binary Operation</title>

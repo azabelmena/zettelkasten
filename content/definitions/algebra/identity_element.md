@@ -11,5 +11,5 @@ e \ast a=a \ast e=a
 \]
 for every \(a \in A\).
 
-We remark that when \(A\) is a group, then the identity element is
-unique.
+We remark that when \(A\) is a [group](/zettelkasten/definitions/algebra/group_theory/group),
+then the identity element is unique.

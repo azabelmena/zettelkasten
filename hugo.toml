@@ -16,7 +16,7 @@ enableRobotsTXT = true
 [menus]
   [[menus.main]]
     name = 'Definitions'
-    pageRef = '/notes'
+    pageRef = '/posts'
     weight = 30
   [[menus.main]]
     name = 'Graph'
@@ -51,8 +51,8 @@ enableRobotsTXT = true
 
   # Homepage setup
   [params.home]
-    showRecentNotes = true
-    recentNotesLimit = 3
+    showRecentPosts = true
+    recentPostsLimit = 3
 
   # Notes page setup
   [params.notes]
@@ -70,11 +70,25 @@ enableRobotsTXT = true
     # Options: `by`, `by_sa`, `by_nc`, `by_nc_sa`, `by_nd`, `by_nc_nd`, `zero`, `none`
     # Learn more at https://creativecommons.org/share-your-work/cclicenses/
     # Default: none
-    creativeCommonsLicense = 'by_nc'
+    creativeCommonsLicense = 'none'
+
+    # Show Creative Commons icons for the selected license.
+    # Default: true
     showCreativeCommonsIcons = true
 
+    # Show a credit link to the Today I Learned theme in the footer.
+    # Default: true
     showThemeCredit = true
 
+  # robots.txt setup
+  # IMPORTANT: remember to set `enableRobotsTXT = true` in your site's hugo.toml file.
   [params.robotstxt]
-    blockCC = true
-    blockAI = true
+    # Block CommonCrawl from indexing your site. CommonCrawl data is often used to train AI models.
+    # Learn more at https://commoncrawl.org/ccbot
+    # Default: false
+    blockCC = false
+
+    # Block various crawlers associated with AI and machine learning model training.
+    # Crawler list from https://github.com/ai-robots-txt/ai.robots.txt
+    # Default: false
+    blockAI = false

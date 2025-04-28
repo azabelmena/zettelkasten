@@ -1,6 +1,6 @@
 +++
 date = '2025-04-26T22:56:11-04:00'
-draft = true
+title = 'Preimage'
 +++
 
 The _preimage_ of a [function](/zettelkasten/definitions/set_theory/function)

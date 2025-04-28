@@ -1,6 +1,5 @@
 +++
 date = '2025-04-25T23:04:29-04:00'
-draft = true
 title = 'Inverse Element'
 +++
 

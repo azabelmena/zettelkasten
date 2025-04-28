@@ -30,6 +30,6 @@ You might want to get started with some links for the definitions:
 
 [APN function](/zettelkasten/definitions/cryptography/apn_function)
 
-[Group](/zettelkastendefinitions/algebra/group_theory/group)
+[Group](/zettelkasten/definitions/algebra/group_theory/group)
 
 [Preimage](/zettelkasten/definitions/set_theory/preimage)

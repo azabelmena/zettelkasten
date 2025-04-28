@@ -25,11 +25,3 @@ accompanying proof, you will need to look at my
 [notes page](https://azabelmena.github.io/notes/) which contains
 actual information on how to access and compile my notes (for which I _DO
 NOT_ claim to be my own intellectual property).
-
-You might want to get started with some links for the definitions:
-
-[APN function](/zettelkasten/definitions/cryptography/apn_function)
-
-[Group](/zettelkasten/definitions/algebra/group_theory/group)
-
-[Preimage](/zettelkasten/definitions/set_theory/preimage)

@@ -16,8 +16,8 @@ enableRobotsTXT = true
 [menus]
   [[menus.main]]
     name = 'Definitions'
-    pageRef = '/definitions'
-    weight = 40
+    pageRef = '/notes'
+    weight = 30
   [[menus.main]]
     name = 'Graph'
     pageRef = '/graph'
@@ -39,14 +39,32 @@ enableRobotsTXT = true
 [params]
   math=true
   dateFormat = ':date_long'
+
+  # Show content graph for single notes and posts.
+  # Default: true
   showGraph = true
 
+  # Author details for the JSON-LD structured data.
   [params.author]
     name = 'Alec S. Zabel-Mena'
     email = 'alec.zabel@upr.edu'
 
+  # Homepage setup
   [params.home]
+    showRecentNotes = true
+    recentNotesLimit = 3
 
+  # Notes page setup
+  [params.notes]
+    # Set the number of notes to list on each page.
+    # Default: 20
+    pageSize = 20
+
+    # Show a filter option for note categories above the notes list.
+    # Default: true
+    showCategoryFilter = true
+
+  # Footer setup
   [params.footer]
     # Specify the Creative Commons license to apply to your content.
     # Options: `by`, `by_sa`, `by_nc`, `by_nc_sa`, `by_nd`, `by_nc_nd`, `zero`, `none`
@@ -54,17 +72,9 @@ enableRobotsTXT = true
     # Default: none
     creativeCommonsLicense = 'by_nc'
     showCreativeCommonsIcons = true
-    showThemeCredit = false
 
-  # robots.txt setup
-  # IMPORTANT: remember to set `enableRobotsTXT = true` in your site's hugo.toml file.
+    showThemeCredit = true
+
   [params.robotstxt]
-    # Block CommonCrawl from indexing your site. CommonCrawl data is often used to train AI models.
-    # Learn more at https://commoncrawl.org/ccbot
-    # Default: false
     blockCC = true
-
-    # Block various crawlers associated with AI and machine learning model training.
-    # Crawler list from https://github.com/ai-robots-txt/ai.robots.txt
-    # Default: false
     blockAI = true

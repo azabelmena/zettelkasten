@@ -28,8 +28,8 @@ NOT_ claim to be my own intellectual property).
 
 You might want to get started with some links for the definitions:
 
-[Binary Operation](definitions/algebra/group_theory/binary_operation)
+[APN function](/zettelkasten/definitions/cryptography/apn_function)
 
-[Group](definitions/algebra/group_theory/group)
+[Group](/zettelkastendefinitions/algebra/group_theory/group)
 
-[Inverse](definitions/algebra/group_theory/inverse_element)
+[Preimage](/zettelkasten/definitions/set_theory/preimage)

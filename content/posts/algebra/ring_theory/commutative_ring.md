@@ -5,4 +5,4 @@ title = 'Commutative ring'
 
 A _commmutative ring_ is a [ring](/zettelkasten/posts/algebra/ring_theory/ring)
 \(R\) whose operation \(\cdot:R \times R \rightarrow R\) is
-[commutative](/zettelkasten/posts/algebra/ring_theory/commutative_ring)
+[commutative](/zettelkasten/posts/algebra/commutative)

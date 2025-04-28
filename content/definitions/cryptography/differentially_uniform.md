@@ -8,9 +8,10 @@ Given \( \delta \in \Z^+ \), we call an [\( (m,n,p)
 _differentially \(\delta\)-uniform_ if for every nonzero \( a \in
 \mathbb{F}_{p^m} \), and for every \( b \in \mathbb{F}_{p^n} \), the
 difference equation:
+
+[
 \[
 D_a{f(x)}=b
 \]
-has at most \(\delta\)-solutions. Here \(D_a{f}\) is the
-[derivative](/zettelkasten/definitions/cryptography/derivative) of \(f\) in
-the direction of \(a\).
+](/zettelkasten/definitions/cryptography/derivative)
+has at most \(\delta\)-solutions.

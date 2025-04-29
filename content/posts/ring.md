@@ -3,8 +3,8 @@ date = '2025-04-28T16:40:28-04:00'
 title = 'Ring'
 +++
 
-A _ring_ is a {{< backlink "non-empty" "non-empty set">}} \(R\)
-together with two {{< backlink "binary_operation" "binary operations" >}}
+A _ring_ is a set \(R\) together with two
+{{< backlink "binary_operation" "binary operations" >}}
 \(+:R \times R \rightarrow R\) and \(\cdot:R \times R \rightarrow R\)
 such that:
 

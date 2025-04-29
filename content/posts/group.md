@@ -3,7 +3,7 @@ date = '2025-04-25T22:35:41-04:00'
 title = 'Group'
 +++
 
-A _group_ is a non-empty {{< backlink "set" "set" >}}
+A _group_ is a {{< backlink "non-empty" "non-empty set" >}}
 \(G\) together with a {{< backlink "binary_operation" "binary operation" >}}
 \(\ast: G \times G \rightarrow G\) such that the following hold:
 

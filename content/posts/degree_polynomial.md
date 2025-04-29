@@ -1,6 +1,6 @@
 +++
 date = '2025-04-29T16:20:09-04:00'
-title = 'Degree Polynomial'
+title = 'Degree of a Polynomial'
 +++
 
 Let

@@ -9,4 +9,4 @@ form:
 \[
 L(x)=\sum_{c_i \in \mathbb{F}_q}{c_ix^{p^i}}
 \]
-where [\(\text{char}{\mathbb{F}_q}=p\)]().
+where {{< backlink "characteristic" "\(\text{char}{\mathbb{F}_q}=p\)">}}.

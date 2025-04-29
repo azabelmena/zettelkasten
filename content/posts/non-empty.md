@@ -7,5 +7,6 @@ We call a {{< backlink "set" "set" >}} _non-empty_ if it is
 not the {{< backlink "empty-set" "empty set" >}}.
 
 {{< sidenote "remark" >}}
-That is, if \(A\) is non-empty, \(A\) contains at-least one element.
+That is, the set \(A\) is _non-empty_ if it contains at-least one
+element.
 {{< /sidenote >}}

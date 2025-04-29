@@ -1,6 +1,6 @@
 +++
 date = '2025-04-28T20:06:07-04:00'
-title = 'Non Empty'
+title = 'Non-Empty Set'
 +++
 
 We call a {{< backlink "set" "set" >}} _non-empty_ if it is

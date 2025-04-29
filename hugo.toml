@@ -15,7 +15,7 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
-    name = 'Definitions'
+    name = 'Zettelkastens'
     pageRef = '/posts'
     weight = 30
   [[menus.main]]

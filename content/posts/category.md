@@ -29,7 +29,7 @@ exists.
 (3). For any object \(a \in \text{obj}{\mathscr{C}}\), there is a
 morphism \(id_a \in \text{Mor}{(a,a)}\), called the _identity
 morphism_ on \(a\), such that for any objects \(b,c \in \text{obj}{\mathscr{C}}\),
-and for any morphisms \(f \in \text{Mor}{(a,b)}\) and \(g \in \text{Mor}{(c,a)}\), '
+and for any morphisms \(f \in \text{Mor}{(a,b)}\) and \(g \in \text{Mor}{(c,a)}\),
 the following holds:
 \[
 f \circ id_a=f \text{ and } id_a \circ g=g

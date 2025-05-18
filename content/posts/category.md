@@ -11,7 +11,7 @@ between pairs of objects, each of which is denoted \(\text{Mor}{(a,b)}\) for any
 (1). For any objects \(a,b,c \in \text{obj}{\mathscr{C}}\), there
 exist _composition maps_
 \[
-\circ:\text{Mor}{(b,c)} \times \text{Mor}{(a,b)} \rightarrow \text{Mor}{(b,c)}
+\circ:\text{Mor}{(b,c)} \times \text{Mor}{(a,b)} \rightarrow \text{Mor}{(a,c)}
 \]
 associating to each pair of morphisms \((g,f)\) a morphism \(g \circ f\) called the
 _composition_ of the morphism \(g\) with the morphism \(f\).

@@ -36,3 +36,7 @@ f \circ id_a=f \text{ and } id_a \circ g=g
 \]
 Given objects \(a,b \in \text{obj}{\mathscr{C}}\), we denote a morphism \(f \in
 \text{Mor}{(a,b)}\) by \(f:a \rightarrow b\).
+
+{{< sidenote "remark" >}}
+Here we take the terms _object_ and _morphism_ to be undefined.
+{{< /sidenote >}}

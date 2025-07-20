@@ -10,7 +10,7 @@ mathematics. The aim is to provide (among many other sites) a
 centralized repository where I can find definitions with
 relative ease. I say _I_ and not _we_ because first and foremost, this
 zettelkasten is for my own personal use for when I need quick access
-to definitions I need. Indeed, you'll find most of the definitions
+to definitions. You'll find most of the definitions
 here line up with _my_ personal research interests and work. However,
 this work is all in the public domain, and _anyone_ is free to access
 it; just keep in mind it is not necessarily what you _need_.

@@ -35,7 +35,7 @@ for which I (at-least I hope I will) jot down some observations and
 reflections. No doubt, I will be reflecting on also keeping an
 online zettelkasten  If you want to know more about my personal
 process, feel free to read the zibaldones I label as _zettelkasten_
-[here](https://azabelmena.github.io/zibaldone/).
+[here](https://zibaldone.azabelmena.xyz).
 
 I hope to update these zettelkastens on a regular basis, in accordance
 to my immediate needs given my research work and interests, and given
@@ -48,7 +48,7 @@ now. I haven't decided whether I will group these zettelkastens under
 different topics to which each definition pertains. However, I believe
 so far that the free form nature of the project is actually a benefit,
 and there is no need to impose structure where it is not necessary.
-For the most part, the [graph](https://azabelmena.github.io/zettelkasten/graph)
+For the most part, the [graph](https://zettelkasten.azabelmena.xyz/graph)
 imparts and implies most, if not _all_ the structure of the
 zettelkasten. I encourage you to just pick a definition and get lost
 in the web of vertices!

@@ -1,4 +1,4 @@
-baseURL = 'http://zettelkasten.azabelmena.xyz'
+baseURL = 'https://zettelkasten.azabelmena.xyz'
 languageCode = 'en-us'
 title = "Mathematik Zettelkasten"
 copyright = 'Alec S. Zabel-Mena'

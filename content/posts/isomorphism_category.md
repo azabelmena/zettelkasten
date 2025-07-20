@@ -4,8 +4,7 @@ title = 'Isomorphism (in a Category)'
 +++
 
 Let \(\mathscr{C}\) be a {{< backlink "category" "category" >}}, and
-let \(a\) and \(b\) be {{< backlink "category" "objects" >}} in
-\(\mathscr{C}\). We call a {{< backlink "category" "morphism" >}}
+let \(a\) and \(b\) be object in \(\mathscr{C}\). We call a morphism
 \(f:a \rightarrow b\) an _isomorphism_ between \(a\) and \(b\)
 provided there exists a morphism \(g:b \rightarrow a\) such that:
 \[

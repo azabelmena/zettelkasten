@@ -4,5 +4,4 @@ title = 'Groupoid'
 +++
 
 A _groupoid_ is a {{< backlink "category" "category">}} in which every
-{{< backlink "category" "morphism" >}} is an
-{{< backlink "isomorphism_category" "isomorphism" >}}.
+morphism is an {{< backlink "isomorphism_category" "isomorphism" >}}.

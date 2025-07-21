@@ -3,15 +3,16 @@ date = '2025-07-20T20:39:45-04:00'
 title = 'Incidence Geometry'
 +++
 
-An _incidence geometry_ is a {{< backlink "set" "set" >}}, whose
-elements are called _points_, together with a collection of
-{{< backlink "subset" "subsets" >}}, whose elements are called
-_lines_, such that the following hold:
+An _incidence geometry_ is a {{< backlink "set" "set" >}} \(G\),
+whose elements are called _points_, together with a collection of
+{{< backlink "subset" "subsets" >}} \(\mathcal{L}\), whose elements
+are called _lines_, such that the following hold:
 
-(1.) For any two distince points \(A\) an \(B\) there is a unique
-line \(l\) for which \(A,B \in l\).
+(1). For any points \( A,B \in G \), there exists a unique line
+\( l \in \mathcal{L} \) for which \( A,B \in l \).
 
-(2.) Every line contains at-least two points.
+(2). For every line \( l \in \mathcal{L} \), \( |l| \geq 2 \).
 
-(3.) For any three points \(A\), \(B\), and \(C\), there exists a
-line \(l\) for which \(A,B \in l\) but \(C \notin l\).
+(3). There exists points \( A,B,C \in G \), and a line \( l \in
+\mathcal{L} \) such that \( A,B \in l \) but \( C \notin l \), and
+we call any three such points _non-colinear_.

@@ -5,7 +5,7 @@ title = ''
 
 Welcome to my wonderful [Zettelkasten](https://zettelkasten.de/introduction/#luhmanns-zettelkasten)
 of mathematics definitions! Here you can find a curated list of
-mathematics definitions from various different disciplines in
+definitions from various different disciplines in
 mathematics. The aim is to provide (among many other sites) a
 centralized repository where I can find definitions with
 relative ease. I say _I_ and not _we_ because first and foremost, this
@@ -23,15 +23,15 @@ and mathematical definitions only. I will occaisonally leave remarks
 assuming, or hinting at well known results, but no explicit results or
 theorems will be mentioned, their proofs, even less. If you want more
 in-depths results to go along, you have to look else-where. You may
-look at my [notes page](https://azabelmena.github.io/notes/), compile
-my \(\LaTeX\) notes (for which _I DO NOT_ claim as my own intellectual
-property), and go from there.
+look at my [notes page](https://azabelmena.xyz/notes/), compile
+my \(\LaTeX\) notes (_I DO NOT_ claim these notes as my own
+intellectual property), and go on from there.
 {{< /admonition >}}
 
 {{< admonition type="tip" title="Zettelkastens and Zibaldones">}}
 I do have somewhat of a personal process regarding these. I have also
 started keeping a [zibaldone](https://www.ivanseymus.com/on-keeping-a-zibaldone-commonplace-book/)
-for which I (at-least I hope I will) jot down some observations and
+for which I (at-least I hope I will) jot down some short observations and
 reflections. No doubt, I will be reflecting on also keeping an
 online zettelkasten  If you want to know more about my personal
 process, feel free to read the zibaldones I label as _zettelkasten_
@@ -40,17 +40,19 @@ process, feel free to read the zibaldones I label as _zettelkasten_
 I hope to update these zettelkastens on a regular basis, in accordance
 to my immediate needs given my research work and interests, and given
 my self study habits. In fact, the zettelkasten has provided me
-another paradigm of self study all in itself.
+another paradigm of self study in itself.
 {{< /admonition >}}
 
 These zettelkastens lack a structure and are rather free form as of
-now. I haven't decided whether I will group these zettelkastens under
-different topics to which each definition pertains. However, I believe
-so far that the free form nature of the project is actually a benefit,
-and there is no need to impose structure where it is not necessary.
+now. This is by design, and I have decided not to group these
+zettelkastens under different topics. I believe
+so far that the free form nature of the zettelkasten is a benefit,
+and there is no need to impose structure where it is not needed.
 For the most part, the [graph](https://zettelkasten.azabelmena.xyz/graph)
 imparts and implies most, if not _all_ the structure of the
-zettelkasten. I encourage you to just pick a definition and get lost
+zettelkasten, and if you know any graph theory, you'll be able to
+deduce that disciplines of math are represented by cliques in the
+graph.  I encourage you to just pick a definition and get lost
 in the web of vertices!
 
 {{< admonition type="note" title="On Keeping Up to Date">}}

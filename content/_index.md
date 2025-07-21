@@ -62,3 +62,9 @@ my self study habits. In fact, the zettelkasten has provided me
 another paradigm of self study all in itself.
 {{< /admonition >}}
 
+## Acknowledgements
+
+I would like to thank Sona Tau Estrada Rivera for giving me the idea
+for zettelkastens. You can check out her zettelkasten
+[here](https://mathematik.stau.space), and you can check out
+some of her other stuff [here](https://stau.space).

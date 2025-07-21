@@ -9,8 +9,10 @@ set_, together with a collection \(\mathscr{I}\) of
 that the following hold:
 
 (1.) \( \emptyset \in \mathscr{I} \)
+
 (2.) If \( I \in \mathscr{I} \) and \( J \subseteq I \), then
 \( J \in \mathscr{I} \).
+
 (3.) If \(I_1, I_2 \in \mathscr{I} \), and \( |I_1|<|I_2| \), then
 there exists an \( e \in {I_2 \backslash I_1} \) for which \(I_1
 \cup \{e\} \in \mathscr{I} \).

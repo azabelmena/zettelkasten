@@ -32,8 +32,8 @@ intellectual property), and go on from there.
 I do have somewhat of a personal process regarding these. I have also
 started keeping a [zibaldone](https://www.ivanseymus.com/on-keeping-a-zibaldone-commonplace-book/)
 for which I (at-least I hope I will) jot down some short observations and
-reflections. No doubt, I will be reflecting on also keeping an
-online zettelkasten  If you want to know more about my personal
+reflections. No doubt, I will be reflecting on keeping an online
+zettelkasten  If you want to know more about my personal
 process, feel free to read the zibaldones I label as _zettelkasten_
 [here](https://zibaldone.azabelmena.xyz).
 

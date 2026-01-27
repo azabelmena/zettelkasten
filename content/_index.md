@@ -5,7 +5,7 @@ title = ''
 
 Welcome to my wonderful [Zettelkasten](https://zettelkasten.de/introduction/#luhmanns-zettelkasten)
 of mathematics definitions! Here you can find a curated list of
-mathematics definitions from various different disciplines in
+mathematics definitions from varying disciplines in
 mathematics. The aim is to provide (among many other sites) a
 centralized repository where I can find definitions with
 relative ease. I say _I_ and not _we_ because first and foremost, this
@@ -15,7 +15,7 @@ here line up with _my_ personal research interests and work. However,
 this work is all in the public domain, and _anyone_ is free to access
 it; just keep in mind it is not necessarily what you _need_.
 
-There are some things that need to be moved out the way first:
+There are some things to address first:
 
 {{< admonition type="tip" title="Definitions only please!">}}
 This zettelkasten is _exclusively_ for mathematical definitions,

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Spectral Bold";
+    src: url("/fonts/Spectral-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Bold Italic";
+    src: url("/fonts/Spectral-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Extra Bold";
+    src: url("/fonts/Spectral-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Extra Bold Italic";
+    src: url("/fonts/Spectral-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Extra Light";
+    src: url("/fonts/Spectral-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Extra Light Italic";
+    src: url("/fonts/Spectral-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Italic";
+    src: url("/fonts/Spectral-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Light";
+    src: url("/fonts/Spectral-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Light Italic";
+    src: url("/fonts/Spectral-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Medium";
+    src: url("/fonts/Spectral-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Medium Italic";
+    src: url("/fonts/Spectral-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Regular";
+    src: url("/fonts/Spectral-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Semi Bold";
+    src: url("/fonts/Spectral-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral Semi Bold Italic";
+    src: url("/fonts/Spectral-SemiBoldItalic.woff2") format("woff2");
+}
+
+body {
+    font-family: "Spectral Regular" !important;
+}
+

@@ -22,6 +22,11 @@ enableRobotsTXT = true
     name = 'Graph'
     pageRef = '/graph'
     weight = 40
+  [[menus.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "https://azabelmena.xyz"
+    weight     = 50
 
 [markup]
   [markup.highlight]
